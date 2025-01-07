@@ -68,7 +68,8 @@ src/
    ```bash
    npm run dev
    ```
-2. Open your browser and navigate to `http://localhost:3000`.
+2. Open your browser and navigate to `http://localhost:PORT`.
+   Note: your PORT may be different, but by default though Vite it is 5173.
 
 ### Building for Production
 To create an optimized production build:
