@@ -1,12 +1,15 @@
-
-import './App.css'
+import './App.css';
+import LandingPage from './views/home/LandingPage';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
-  
-
   return (
-    <h1 className="text-3xl font-bold">Hello World</h1>
+    <Router>
+      <Routes>
+        <Route path='/' element={<LandingPage/>}/>
+      </Routes>
+    </Router>
   )
 }
 
-export default App
+export default App;
