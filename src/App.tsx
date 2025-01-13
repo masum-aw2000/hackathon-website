@@ -6,7 +6,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
-      <NavBar />
+      <header>
+        <NavBar />
+      </header>
       <main className='pt-[72px]'>
         <Router>
           <Routes>
