@@ -20,7 +20,7 @@ const HeroSection = ({
     /*add custom code for behavior*/
   },
   onSecondaryClick = () => {
-    /*add custmoe code for behavior*/
+    /*add custom code for behavior*/
   },
 }: HeroSectionProps) => {
   return (
