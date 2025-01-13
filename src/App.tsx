@@ -6,12 +6,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
-      <NavBar/>
-      <Router>
-        <Routes>
-          <Route path='/' element={<LandingPage />} />
-        </Routes>
-      </Router>
+      <NavBar />
+      <main className='pt-[72px]'>
+        <Router>
+          <Routes>
+            <Route path='/' element={<LandingPage />} />
+          </Routes>
+        </Router>
+      </main>
+
     </>
 
   )
